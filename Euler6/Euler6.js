@@ -28,8 +28,6 @@ function subSquares(n) {
         sumOfSquares += Math.pow(i,2);
         sumInSquare += i;
     }
-    //console.log(sumOfSquares);
-    //console.log(sumInSquare);
     sumInSquare = Math.pow(sumInSquare,2);
     result = sumInSquare - sumOfSquares;
     return result;
